@@ -1,5 +1,5 @@
 document.write('\
 \
-This is my footer\
+Copyright me, but GPLv3 unless stated otherwise.\
 \
 ');
