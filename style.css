@@ -1,17 +1,18 @@
 html {
-    text-align: center;
-    background-color: transparent;
+    text-align: left;
+    background-color: darkgrey;
     color: white;
     font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 
 body {
-    background-color: black;
     height: 100%
 }
 
-table{
+/* tables */
+table {
+    display: block;
     margin-left: auto;
     margin-right: auto; 
 }
@@ -24,6 +25,7 @@ th, td {
 }
 
 td.nav {
+    text-align: center;
     width: 20%
 }
 
@@ -31,6 +33,14 @@ td.projects {
     width: 10%
 }
 
+/* layout */
+.layout-row {
+    display: flex;
+}
+  
+.layout-column {
+    flex: 50%;
+}
 
 
 a:link {
