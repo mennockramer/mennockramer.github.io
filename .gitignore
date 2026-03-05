@@ -1,0 +1,2 @@
+# ignore LibreOffice locks
+.~lock.*
